@@ -1,0 +1,194 @@
+.imageContainer {
+  margin: 0;
+  height: 25vw;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.img {
+  height: 25vw;
+  padding-top: auto;
+  width: 37vw;
+  object-fit: contain;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.bigImage {
+  height: inherit;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.bigH1 {
+  text-align: center;
+}
+
+.bigP {
+  text-align: center;
+}
+
+.bigPadding {
+  position: absolute;
+  margin-top: -23%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.leftPadding {
+  height: 25vw;
+  padding-top: 2vw;
+  padding-right: 4vw;
+  padding-left: 40vw;
+}
+
+.rightPadding {
+  height: 25vw;
+  padding-top: 2vw;
+  padding-right: 40vw;
+  padding-left: 4vw;
+}
+
+.nonePadding {
+  height: 23vw;
+  padding-top: 2vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+}
+
+.h1 {
+  font-size: 2.2vw;
+  font-weight: 900;
+}
+
+.p {
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 1050px) {
+  .imageContainer {
+    height: 30vw;
+  }
+
+  .bigImage {
+    width: 100%;
+  }
+
+  .bigPadding {
+    margin-top: -26%;
+  }
+
+  .img {
+    height: 30vw;
+  }
+
+  .h1 {
+    font-size: 3vw;
+  }
+
+  .p {
+    font-size: 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .imageContainer {
+    height: 35vw;
+  }
+
+  .img {
+    height: 35vw;
+  }
+
+  .bigPadding {
+    margin-top: -32%;
+  }
+
+  .h1 {
+    font-size: 3.5vw;
+  }
+
+  .p {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .img {
+    height: 40vw;
+    width: 100vw;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .bigPadding {
+    margin-top: -65%;
+  }
+
+  .imageContainer {
+    height: 85vw;
+  }
+
+  .h1 {
+    font-size: 5vw;
+  }
+
+  .p {
+    font-size: 2.5vw;
+  }
+
+  .leftPadding {
+    height: 45vw;
+    padding-top: 40vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  .rightPadding {
+    height: 45vw;
+    padding-top: 40vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .img {
+    height: 50vw;
+    width: 100vw;
+  }
+
+  .bigPadding {
+    margin-top: -95f%;
+  }
+
+  .imageContainer {
+    height: 120vw;
+    border-radius: 0;
+  }
+
+  .h1 {
+    font-size: 7vw;
+  }
+
+  .p {
+    font-size: 4vw;
+  }
+
+  .leftPadding {
+    height: 70vw;
+    padding-top: 50vw;
+  }
+
+  .rightPadding {
+    height: 70vw;
+    padding-top: 50vw;
+  }
+}

@@ -1,0 +1,16 @@
+.logoBar {
+  height: 5vw;
+  background-color: white;
+}
+
+.logoImg {
+  margin: 1vw;
+  height: 3vw;
+}
+
+.logoBarTitle {
+  margin-top: 1vw;
+  margin-right: 2vw;
+  font-size: 2vw;
+  float: right;
+}
