@@ -14,7 +14,7 @@ export class LogoBar extends React.Component {
   render() {
     return (
       <div className="logoBar">
-        <img className="logoImg" src={this.state.companyLogo} alt="logo"></img>
+        <img className="logoImg" src={this.state.companyLogo} alt=""></img>
         <h1 className="logoBarTitle">{this.state.companyName}</h1>
       </div>
     );
