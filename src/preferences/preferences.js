@@ -1,5 +1,5 @@
 export const logoBar = {
-  companyName: "MPR",
+  companyName: "Easyskate",
 }
 
 export const navbar = {
